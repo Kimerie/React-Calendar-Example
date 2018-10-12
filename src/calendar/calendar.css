@@ -1,0 +1,74 @@
+/* Calendar */
+
+.calendar {
+	background: white;
+	border: 1px solid #AAA;
+	border-radius: 6px;
+	z-index: 1;
+	max-width: 100%;
+	height:auto;
+}
+.calendar-canvas {
+    display:block;
+    padding: 100px !important;
+    width: 100%;
+    padding-right: 200px;
+    padding-top: 100px;
+    margin-left: 300px;
+    margin-bottom: 200px;
+}
+
+.canvas-row{
+    border: 1px solid rgb(211, 210, 210);
+    width: auto;
+}
+
+.canvas-cell {
+    border: 1px solid rgb(211, 210, 210);
+    font-size: 20px;
+    text-align:center;
+    border-spacing: 0px;
+    width: 100px;
+    height: 75px;
+}
+
+span.number {
+  position: relative;
+  font-size: 10px;
+  line-height: 1px;
+  padding-left: 75px;
+  padding-bottom: 65px;
+  font-weight: 700;
+}
+
+.grey{
+    color: rgb(211, 210, 210)
+}
+
+.day-heading {
+    color:rgb(211, 210, 210);
+}
+
+.calendar-heading{
+    text-align: center;
+    color:rgb(229, 9, 20);
+    border: 1px solid rgb(211, 210, 210);
+    font-family: 'Khula', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 25px;
+    width: 700px;
+    height: 100px;
+    margin-left: 100px;
+    border-collapse: collapse;
+    padding-top: 30px;
+    /* background-color: rgb(229, 9, 20); */
+
+}
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
